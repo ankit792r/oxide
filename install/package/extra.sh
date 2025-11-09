@@ -7,6 +7,7 @@ if [[ ! -f "$PKG_FILE" ]]; then
 fi
 
 PKGS=$(grep -vE '^\s*#' "$PKG_FILE" | grep -vE '^\s*$')
+sudo pacman -Syu --noconfirm
 sudo pacman -S --needed $PKGS
 
 echo "Extra packages installed."
