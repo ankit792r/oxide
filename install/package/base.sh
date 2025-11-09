@@ -7,7 +7,7 @@ if [[ ! -f "$PKG_FILE" ]]; then
 fi
 
 PKGS=$(grep -vE '^\s*#' "$PKG_FILE" | grep -vE '^\s*$')
-sudo pacman -S --noconfirm --needed $PKGS
+sudo pacman -S --needed $PKGS
 
 sudo systemctl enable --now NetworkManager bluetooth
 echo "Base packages installed."
