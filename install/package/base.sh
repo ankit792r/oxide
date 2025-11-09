@@ -1,4 +1,4 @@
-info "Installing base packages..."
+echo "Installing base packages..."
 
 PKG_FILE="$OXIDE_INSTALL/base.packages"
 if [[ ! -f "$PKG_FILE" ]]; then

@@ -3,7 +3,7 @@ TARGET_CONFIG_DIR="$HOME/.config"
 
 mkdir -p "$TARGET_CONFIG_DIR"
 
-info "Linking configs"
+echo "Linking configs"
 
 for dir in "$SOURCE_CONFIG_DIR"/*; do
     target="$TARGET_CONFIG_DIR/$name"
