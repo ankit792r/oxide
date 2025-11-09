@@ -7,4 +7,4 @@ done
 # Set initial theme
 mkdir -p ~/.config/oxide/current
 ln -snf ~/.config/oxide/themes/tokyo-night ~/.config/oxide/current/theme
-ln -snf ~/.config/oxide/current/theme/backgrounds/1-scenery-pink-lakeside-sunset-lake-landscape-scenic-panorama-7680x3215-144.png ~/.config/oxide/current/background
+ln -snf ~/.config/oxide/current/theme/backgrounds/2-Pawel-Czerwinski-Abstract-Purple-Blue.jpg ~/.config/oxide/current/background
