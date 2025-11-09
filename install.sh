@@ -4,7 +4,7 @@
 # ============================================
 
 # Exit immediately if a command exits with a non-zero status
-set -eEo pipefail
+set -eEox pipefail
 
 export OXIDE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 export OXIDE_INSTALL="$OXIDE_PATH/install"
