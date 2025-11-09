@@ -1,0 +1,11 @@
+
+PKG_FILE="$OXIDE_INSTALL/extra.packages"
+if [[ ! -f "$PKG_FILE" ]]; then
+  warn "No extra packages found, skipping..."
+  exit 0
+fi
+
+PKGS=$(grep -vE '^\s*#' "$PKG_FILE" | grep -vE '^\s*$')
+gum spin --spinner pulse --title "Installing extras..." -- sudo pacman -S --noconfirm --needed $PKGS
+
+success "Extra packages installed."
