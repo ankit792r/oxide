@@ -1,2 +1,2 @@
-source $OXIDE_INSTALL/packages/base.sh
-source $OXIDE_INSTALL/packages/extra.sh
+source $OXIDE_INSTALL/package/base.sh
+source $OXIDE_INSTALL/package/extra.sh
