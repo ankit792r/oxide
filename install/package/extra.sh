@@ -8,6 +8,6 @@ fi
 
 PKGS=$(grep -vE '^\s*#' "$PKG_FILE" | grep -vE '^\s*$')
 sudo pacman -Syu --noconfirm
-sudo pacman -S --needed $PKGS
+sudo pacman -S --noconfirm --needed $PKGS
 
 echo "Extra packages installed."

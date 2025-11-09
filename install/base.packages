@@ -17,6 +17,7 @@ blueman
 pavucontrol
 brightnessctl
 playerctl
+iwd
 
 # Screenshot tools
 grim
