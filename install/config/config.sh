@@ -9,7 +9,7 @@ for dir in "$SOURCE_CONFIG_DIR"/*; do
     target="$TARGET_CONFIG_DIR/$name"
 
     ln -sf "$dir" "$target"
-    success "Linked $name → ~/.config/$name"
+    echo "Linked $name → ~/.config/$name"
 done
 
-success "All configs linked!"
+echo "All configs linked!"
