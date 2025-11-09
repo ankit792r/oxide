@@ -89,7 +89,6 @@ system-config-printer
 tldr
 tree-sitter-cli
 ttf-cascadia-mono-nerd
-ttf-ia-writer
 ttf-jetbrains-mono-nerd
 ufw
 unzip
@@ -103,7 +102,6 @@ wl-clipboard
 woff2-font-awesome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland
-xdg-terminal-exec
 xmlstarlet
 xournalpp
 zoxide
