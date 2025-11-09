@@ -68,7 +68,6 @@ noto-fonts-emoji
 noto-fonts-extra
 neovim
 pamixer
-pinta
 playerctl
 plocate
 plymouth
@@ -76,14 +75,12 @@ polkit-gnome
 postgresql-libs
 power-profiles-daemon
 python-gobject
-python-terminaltexteffects
 qt5-wayland
 ripgrep
 satty
 sddm
 signal-desktop
 slurp
-spotify
 starship
 sushi
 swaybg
@@ -94,14 +91,10 @@ tree-sitter-cli
 ttf-cascadia-mono-nerd
 ttf-ia-writer
 ttf-jetbrains-mono-nerd
-typora
-tzupdate
 ufw
-ufw-docker
 unzip
 uwsm
 waybar
-wayfreeze
 whois
 wireless-regdb
 wiremix
@@ -113,6 +106,4 @@ xdg-desktop-portal-hyprland
 xdg-terminal-exec
 xmlstarlet
 xournalpp
-yaru-icon-theme
-yay
 zoxide
