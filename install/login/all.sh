@@ -1,0 +1,1 @@
+source $OXIDE_INSTALL/login/sddm.sh
