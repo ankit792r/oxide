@@ -1,19 +1,20 @@
-# Core Hyprland environment
-hyprland
-xdg-desktop-portal-hyprland
+# Core Niri environment
+niri
+fuzzel 
+mako
 waybar
-rofi-wayland
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
 alacritty
-hyprpaper
-hypridle
-hyprlock
-swaync
-sddm
+swaybg
+swayidle
+swaylock
+xwayland-satellite udiskie
+wlsunset
+
 
 # System utilities
-thunar
 polkit-gnome
-network-manager-applet
 blueman
 pavucontrol
 brightnessctl
