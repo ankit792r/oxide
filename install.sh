@@ -13,7 +13,7 @@ export PATH="$OXIDE_PATH/bin:$PATH"
 source "$OXIDE_INSTALL/helpers/all.sh"
 source "$OXIDE_INSTALL/package/all.sh"
 source "$OXIDE_INSTALL/config/all.sh"
-source "$OXIDE_INSTALL/login/all.sh
+source "$OXIDE_INSTALL/login/all.sh"
 source "$OXIDE_INSTALL/post-install/finish.sh"
 
 
