@@ -1,10 +1,10 @@
-force_keyboard_focus = true                                                 # forces keyboard forcus to stay in Walker
-selection_wrap = true                                                       # wrap list if at bottom or top
-theme = "oxide-themes"                                                   # theme to use
+force_keyboard_focus = true
+selection_wrap = true
+theme = "oxide-themes"
 additional_theme_location = "~/.local/share/oxide/default/walker/"
 
 [placeholders]
-"default" = { input = " Search...", list = "No Results" } # placeholders for input and empty list, key is the providers name, so f.e. "desktopapplications" or "menus:other"
+"default" = { input = " Search...", list = "No Results" } 
 
 [keybinds]
 quick_activate = []

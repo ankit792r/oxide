@@ -9,16 +9,16 @@ alacritty
 swaybg
 swayidle
 swaylock
-xwayland-satellite udiskie
+xwayland-satellite 
 wlsunset
-
+sddm
+uwsm
 
 # System utilities
 polkit-gnome
 blueman
 pavucontrol
 brightnessctl
-playerctl
 iwd
 
 # Screenshot tools
@@ -28,7 +28,7 @@ swappy
 wl-clipboard
 
 # Fonts
-ttf-jetbrains-mono
+ttf-jetbrains-mono-nerd 
 noto-fonts
 noto-fonts-emoji
 
