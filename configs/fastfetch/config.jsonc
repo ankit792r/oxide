@@ -66,13 +66,7 @@
       "type": "command",
       "key": "\ue900 OS",
       "keyColor": "blue",
-      "text": "version=$(oxide-version); echo \"Oxide $version\""
-    },
-    {
-      "type": "command",
-      "key": "│ ├󰘬",
-      "keyColor": "blue",
-      "text": "branch=$(oxide-version-branch); echo \"$branch\""
+      "text": "Arch Linux"
     },
     {
       "type": "kernel",

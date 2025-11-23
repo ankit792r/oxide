@@ -88,6 +88,11 @@ button:hover {
   color: #32302f;
 }
 
+#temperature.critical {
+  background-color: #cc241d;
+  color: #ffffff;
+}
+
 #tray {
   background-color: transparent;
   padding: 0 10px;
